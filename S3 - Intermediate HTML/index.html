@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- tr: table row, td: table data -->
+
+    <table border="1px">
+      <thead>
+        <tr>
+          <th>a</th>
+          <th>b</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>c</td>
+          <td>d</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>e</td>
+          <td>f</td>
+        </tr>
+      </tfoot>
+    </table>
+    <hr />
+    <h3>skills</h3>
+    <table id="mainTable" cellspacing="10">
+      <tr>
+        <td>
+          <table id="subTable1">
+            <tr>
+              <td>iOS Dev</td>
+              <td>✨✨✨✨✨</td>
+            </tr>
+            <tr>
+              <td>Web Dev</td>
+              <td>✨✨✨✨✨</td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table id="subTable2">
+            <tr>
+              <td>Photography</td>
+              <td>✨✨</td>
+            </tr>
+            <tr>
+              <td>Painting</td>
+              <td>✨</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+    <hr />
+    <!-- send form to email address nachlielspam -->
+    <form action="mailto:nachlielspam@gmail.com" enctype="text/plain">
+      <h4>form</h4>
+      <label for="">Your name:</label>
+      <input type="text" name="YourName" value="" />
+      <br />
+      <input type="color" /><br />
+      <label for="">sign up?</label>
+      <input type="checkbox" /><br />
+      <label>password</label>
+      <input type="password" /><br />
+      <input type="file" /><br />
+      <input type="date" /><br />
+      <input type="range" /><br />
+      <label for="">email</label><br />
+      <input type="email" name="yourEmail" /><br />
+      <label>your message</label><br />
+      <textarea name="name" id="" cols="30" rows="10"></textarea><br />
+      <input type="submit" />
+    </form>
+
+    <hr />
+  </body>
+</html>
