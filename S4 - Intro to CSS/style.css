@@ -1,0 +1,28 @@
+body {
+  background-color: #eaf6f6;
+  align-items: center;
+}
+hr {
+  border-style: dotted none none none;
+  height: 0px;
+  width: 30%;
+  border-width: 4px;
+  background-color: none;
+  border-color: gray;
+}
+img {
+  height: 200px;
+}
+h1,
+h3 {
+  color: #66bfbf;
+}
+.classA {
+  background-color: red;
+}
+#mainTable {
+  background-color: blue;
+}
+a:hover {
+  background-color: pink;
+}
